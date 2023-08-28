@@ -1,0 +1,60 @@
+/* <------- CSS RESET -------> */
+*, *::before,*::after{
+  box-sizing: border-box;
+}
+
+*{
+  text-decoration: none;
+
+   font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #3a033a;
+  color: whitesmoke;
+}
+
+
+section,div,body,html{
+  margin: 0;
+  padding: 0;
+}
+/* <------- Utility classes -------> */
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+  margin-inline: auto;
+  padding: 1rem;
+  max-width: 700px;
+}
+
+
+.profile-img{
+  width: 100px;
+}
+
+.btn-primary{
+  font-size: 0.7rem;
+  padding: 0.5rem 1.7rem;
+  border-radius: 5rem;
+  font-weight: 600;
+}
+
+.linkedin-btn{
+  background: #5093E2;
+  color: whitesmoke;
+    
+  }
+  
+.facts{
+  box-shadow: 2px 5px 16px 0px  #d6cccccc, 5px 5px 15px 5px rgb(143, 4, 113);
+}  
